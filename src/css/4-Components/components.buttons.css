@@ -1,0 +1,11 @@
+.c-button {
+    @apply inline-block font-bold text-lg px-10 py-[14px] min-w-[200px] text-center;
+}
+
+.c-button.c-button--filled-blue {
+    @apply bg-blue text-white border-[1px] border-blue rounded-full transition-all duration-300 hover:bg-white hover:text-blue;
+}
+
+.c-button.c-button--outline-blue {
+    @apply bg-white text-blue border-[1px] border-blue rounded-full transition-all duration-300 hover:bg-blue hover:text-white;
+}

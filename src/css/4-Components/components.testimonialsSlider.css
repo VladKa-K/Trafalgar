@@ -1,0 +1,19 @@
+.c-testimonials-slider .slick-slide {
+    @apply h-auto;
+}
+
+.c-testimonials-slider .slick-dots {
+    @apply w-full text-[0px] flex gap-x-[18px] justify-center absolute -bottom-14 lg:-bottom-[136px];
+}
+
+.c-testimonials-slider .slick-dots li {
+    @apply cursor-pointer;
+}
+
+.c-testimonials-slider .slick-dots li:before {
+    @apply content-[''] w-[10px] h-[10px] bg-blue/30 rounded-full block;
+}
+
+.c-testimonials-slider .slick-dots li.slick-active:before {
+    @apply bg-blue;
+}

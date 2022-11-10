@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./1-Fonts/fonts";
+@import "./2-Tools/tools";
+@import "./3-Elements/elements";
+@import "./4-Components/components";
+@import "./5-Sections/sections";
+@import "./6-Organisms/organisms.css";

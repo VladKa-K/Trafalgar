@@ -1,0 +1,50 @@
+.c-main-menu {
+    @apply h-10;
+}
+
+.c-main-menu nav {
+    @apply hidden lg:block;
+}
+
+@media (max-width: 1023px) {
+    .c-main-menu nav {
+        @apply absolute left-0 top-[105px] bg-white w-full h-[calc(100vh-105px)] z-[2] p-7;
+    }
+
+    .c-main-menu nav ul li {
+        @apply py-2;
+    }
+
+}
+
+.c-main-menu .c-main-menu__button {
+    @apply w-[26px]  h-full relative cursor-pointer lg:hidden;
+}
+
+.c-main-menu .c-main-menu__button span {
+    @apply w-full h-[3px] bg-blue block absolute rounded-sm transition-all duration-300;
+}
+
+.c-main-menu .c-main-menu__button span:nth-child(1) {
+    @apply left-0 top-1/2 transform -translate-y-[calc(50%+9px)];
+}
+
+.c-main-menu .c-main-menu__button span:nth-child(2) {
+    @apply left-0 top-1/2 transform -translate-y-1/2;
+}
+
+.c-main-menu .c-main-menu__button span:nth-child(3) {
+    @apply left-0 top-1/2 transform -translate-y-[calc(50%-9px)];
+}
+
+.c-main-menu .c-main-menu__button.active span:nth-child(1) {
+    @apply left-0 top-1/2 transform -translate-y-1/2 rotate-45;
+}
+
+.c-main-menu .c-main-menu__button.active span:nth-child(2) {
+    @apply opacity-0;
+}
+
+.c-main-menu .c-main-menu__button.active span:nth-child(3) {
+    @apply left-0 top-1/2 transform -translate-y-1/2 -rotate-45;
+}

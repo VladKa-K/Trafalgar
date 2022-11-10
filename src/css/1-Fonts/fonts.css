@@ -1,0 +1,40 @@
+/* Mulish */
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/mulish/Mulish-Light.eot');
+    src: url('../../fonts/mulish/Mulish-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/mulish/Mulish-Light.woff2') format('woff2'),
+        url('../../fonts/mulish/Mulish-Light.woff') format('woff'),
+        url('../../fonts/mulish/Mulish-Light.ttf') format('truetype'),
+        url('../../fonts/mulish/Mulish-Light.svg#AvenirLTStd-Roman') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/mulish/Mulish-Regular.eot');
+    src: url('../../fonts/mulish/Mulish-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/mulish/Mulish-Regular.woff2') format('woff2'),
+        url('../../fonts/mulish/Mulish-Regular.woff') format('woff'),
+        url('../../fonts/mulish/Mulish-Regular.ttf') format('truetype'),
+        url('../../fonts/mulish/Mulish-Regular.svg#AvenirLTStd-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/mulish/Mulish-Bold.eot');
+    src: url('../../fonts/mulish/Mulish-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/mulish/Mulish-Bold.woff2') format('woff2'),
+        url('../../fonts/mulish/Mulish-Bold.woff') format('woff'),
+        url('../../fonts/mulish/Mulish-Bold.ttf') format('truetype'),
+        url('../../fonts/mulish/Mulish-Bold.svg#AvenirLTStd-Roman') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

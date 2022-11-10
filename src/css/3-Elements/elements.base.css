@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  @apply font-default;
+}
+
+::selection { 
+  /* @apply text-primary; */
+}
+
+img,
+svg {
+  display: block;
+  vertical-align: middle;
+  border: none;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration-skip-ink: auto;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dd,
+figure,
+pre,
+table,
+fieldset,
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+  line-height: inherit;
+}
+
+button {
+  @apply appearance-none;
+}
+
+/* .container-sm {
+  @apply max-w-[756px] px-7 mx-auto w-full;
+} 
+
+.container-xl {
+  @apply max-w-[1362px] px-[28px] mx-auto w-full;
+}  */
